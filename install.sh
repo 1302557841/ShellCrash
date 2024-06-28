@@ -1,7 +1,7 @@
 #! /bin/bash
 # Copyright (C) Juewuy
 
-[ -z "$url" ] && url="https://git.gushao.club/https://github.com/juewuy/ShellCrash@master"
+[ -z "$url" ] && url="https://git.gushao.club/https://github.com/juewuy/ShellCrash/master"
 type bash &>/dev/null && shtype=bash || shtype=sh 
 echo='echo -e' 
 [ -n "$(echo -e|grep e)" ] && {
